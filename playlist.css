@@ -1,0 +1,78 @@
+.playlist {
+    justify-content: center;
+    /*height: 80% !important;*/
+    width: 100%;
+    background: #5A5A5A;
+    color: #ffffff;
+    margin: 0;
+    text-align: left;
+}
+
+.playheader {
+    padding: 5px;
+}
+
+.playheader:hover{
+    background: #292525;
+    cursor: pointer;
+    transition: background .2s linear;
+}
+
+.playul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.playliactive {
+    margin-top: 10px;
+    background: #FF6666;
+    padding: 10px;
+    text-align: left;
+}
+
+.playli {
+    margin-top: 10px;
+    background: #3d4242;
+    padding: 10px;
+    text-align: left;
+}
+
+.playli:hover {
+    cursor: pointer;
+    background: #FF6666;
+}
+
+.playli:first-child {
+    margin-top: 0;
+}
+
+.playsong {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.playartist{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.playsong{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.playsong{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+	.playsong{
+        font-size: 14px;
+    }
+
+}
